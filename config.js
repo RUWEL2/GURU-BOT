@@ -12,6 +12,8 @@ global.owner = [
   [''] 
 ] //Number of owners
 
+//global.pairingNumber = "" //put your bot number here
+
 global.mods = ['917605902011','32460248586'] 
 global.prems = ['917605902011', '32460248586', '919398758484']
 global.allowed = ['917605902011', '32460248586', '19152999993']
@@ -21,7 +23,7 @@ global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c7
 global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())]
 global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
-global.lolkeysapi = ['BrunoSobrino_2']
+global.lolkeysapi = ['GataDios']
 
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -52,12 +54,14 @@ global.botname = 'MR.THEEKSHANA'
 global.premium = 'true'
 global.packname = ' ▷↻༺₱₳₦₳ĐØⱤ₳༻⇆ㅤ' 
 global.author = '@Asliguru' 
+global.menuvid = 'https://i.imgur.com/AjDzGgG.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/asli_guru69\n' 
-global.dygp = 'https://chat.whatsapp.com/BibVE6tUICp3qOm2a1Ur8f'
-global.fgsc = 'https://github.com/Guru322/GURU-BOT-V1' 
+global.dygp = 'https://chat.whatsapp.com/BFfD1C0mTDDDfVdKPkxRAA'
+global.fgsc = 'https://github.com/Guru322/GURU-BOT' 
 global.fgyt = 'https://youtube.com/@Asliguru'
 global.fgpyp = 'https://youtube.com/@Asliguru'
 global.fglog = 'https://raw.githubusercontent.com/Guru322/api/Guru/guru.jpg' 
+global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
@@ -68,7 +72,7 @@ global.error = '❌'
 global.xmoji = '🔥' 
 
 global.multiplier = 69 
-global.maxwarn = '3' // máxima advertencias
+global.maxwarn = '3' 
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {

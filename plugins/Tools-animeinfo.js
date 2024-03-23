@@ -1,4 +1,4 @@
-import translate from '@vitalets/google-translate-api';
+import {translate} from '@vitalets/google-translate-api';
 import { Anime } from '@shineiichijo/marika';
 
 const client = new Anime();
@@ -34,5 +34,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
   }
 };
 
+handler.help = ['anime']
+handler.tags = ['anime']
 handler.command = /^(anime|animeinfo)$/i;
 export default handler;
